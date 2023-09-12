@@ -1,5 +1,11 @@
 myNumbers = [23,234,345,4356234,243,43,56,2]
 
 #Your code go here:
+# define increment_by_one function
+def increment_by_one(x):
+    return x * 3
+
+# use map function to include increment in new_list
+new_list = list(map(increment_by_one, myNumbers))
 
 print(new_list)
